@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.color_back{
+    background-color: rgb(248,248,248);
+    margin: 0px 10%;
+    padding: 70px;
+}
+
+.accorr_1{
+    color: #4b4b4b;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.m1{
+    color: #4b4b4b;
+    font-size: 20px;
+}
+
+.m1 h4{
+    color: #4b4b4b;
+    font-size: 16px;
+}
+
+.m1 span{
+    font-size: 14px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}

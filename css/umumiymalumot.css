@@ -1,0 +1,38 @@
+.umumiy_malumot {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+.all_div_class a {
+  text-decoration: none;
+  align-items: center;
+  border-bottom: 2px solid #6e7191;
+  display: flex;
+  gap: 20px;
+  height: 82px;
+  padding: 10px;
+  width: 244px;
+}
+
+.all_div_class a h2 {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.all_div_class a img {
+  height: 80%;
+}
+
+.all_div_class:hover{
+  border-radius: 4px;
+  border: 2px solid rgba(0, 117, 255, 1);
+  background-color: rgb(226, 227, 231);
+}
+
+.all_div_class{
+  display: inline-block;
+  margin-top: 4%;
+}

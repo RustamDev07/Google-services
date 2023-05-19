@@ -1,0 +1,95 @@
+.classroom_div p{
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.7px;
+    line-height: 30.01px;
+    margin: 10px 0px;
+    text-indent: 50px;
+}
+
+.classroom_div .classroom_img{
+    text-align: center;
+}
+
+.classroom_div .video_classroom{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    width: 100%;
+}
+
+.classroom_div .video_classroom iframe{
+    border: 2px solid rgb(110, 113, 145);
+    cursor: pointer;
+    height: 500px;
+    width: 80%;
+}
+
+.classroom_div .video_classroom .comment_video{
+    align-items: center;
+    border: 1px solid rgb(110, 113, 145);
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 10px;
+    width: 79%;
+}
+
+.classroom_div .video_classroom .comment_video h1{
+    color: rgb(110, 113, 145);
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+}
+
+.classroom_div .video_classroom .comment_video h1 span{
+    color: rgb(0, 0, 0);
+    font-family: Roboto, sans-serif;
+    margin-left: 10px;
+}
+
+.classroom_div .video_classroom .comment_video h1 a{
+    color: rgb(6, 69, 173);
+    font-family: Roboto, sans-serif;
+    margin-left: 10px;
+}
+
+.classroom_div .video_classroom .comment_video .name{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.classroom_div .video_classroom .comment_video a{
+    color: rgb(6, 69, 173);
+    font-family: Roboto, sans-serif;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.classroom_div .classroom_p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.classroom_div .classroom_a{
+    background-color: rgb(0, 117, 255);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.01px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.classroom_div .classroom_a:hover{
+    background-color: rgb(5, 98, 205);
+    box-shadow: rgba(20, 20, 43, 0.04) 0px 4px 10px;
+}
+
+.classroom_div .classroom_p p{
+    margin-bottom: 35px;
+}
